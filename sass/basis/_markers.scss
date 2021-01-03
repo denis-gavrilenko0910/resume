@@ -1,0 +1,57 @@
+.marker,
+.contacts,
+.project-link {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul,
+ol,
+.headers,
+.company-name,
+.learning-period,
+.specialization {
+  margin: 0;
+  padding: 0;
+}
+.aside-headers {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+}
+.list.marker::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 5px;
+  background-color: rgb(56, 38, 75);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.project.list.marker::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 40px;
+  background-color: rgb(70, 69, 71);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.project.list.marker.last::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 55px;
+  background-color: rgb(70, 69, 71);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

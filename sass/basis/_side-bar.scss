@@ -1,0 +1,67 @@
+body {
+  padding: 15px;
+  background: $body-background-color;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: $main-background-color;
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow: 5px 9px 20px rgba(0.15, 0.15, 0.15, 0.15);
+
+  width: 1200px;
+}
+.photo-container {
+  width: 290px;
+}
+.my-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+}
+.name {
+  font-size: 30px;
+  color: #061e61;
+}
+.contact-title {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 45px;
+}
+.contacts {
+  display: inline-block;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  color:  rgb(255, 255, 255);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color : #012141;
+  }
+}
+.side-bar-container {
+  width: 370px;
+  background-color: #1b32726b;
+  padding: 40px 0px;
+  border-radius: 15px;
+}
+.contacts-container {
+  padding: 10px;
+}
+.aside-headers {
+  margin-bottom: 10px;
+  color: #061e61;
+  font-size: 17px;
+}
+.skills-container {
+  padding: 10px 20px;
+}
+.list {
+  margin-bottom: 5px;
+  font-size: 15px;
+}

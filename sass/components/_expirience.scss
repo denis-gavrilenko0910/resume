@@ -1,0 +1,63 @@
+.expirience {
+  padding: 50px 90px;
+}
+.main-text {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-family: "Roboto", sans-serif;
+}
+.desired-position {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.projects-container {
+  margin-bottom: 20px;
+}
+.project {
+  display: flex;
+}
+.project-link {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 17px;
+  width: 40%;
+  padding: 20px 10px;
+  border-radius: 25px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: #1b32726b;
+  }
+}
+.used-stack {
+  width: 80%;
+  margin: 0;
+  padding: 20px 0;
+}
+.headers {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.company-name {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.learning-period {
+  margin-bottom: 8px;
+}
+.courses-container {
+  margin-bottom: 20px;
+}
+.education-container {
+  margin-bottom: 20px;
+}
+.specialization {
+  font-size: 17px;
+}
