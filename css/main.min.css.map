@@ -6,12 +6,9 @@
         "../sass/utils/_variables.scss",
         "../sass/utils/_fonts.scss",
         "../sass/utils/_normalize.scss",
-        "../sass/basis/_markers.scss",
-        "../sass/basis/_side-bar.scss",
-        "../sass/components/_expirience.scss",
-        "../sass/components/_personal-info.scss",
-        "../sass/components/_soft-skills.scss",
-        "../sass/components/_tech-skills.scss"
+        "../sass/components/_markers.scss",
+        "../sass/components/_side-bar.scss",
+        "../sass/components/_expirience.scss"
     ],
     "names": [],
     "file": "main.min.css"
