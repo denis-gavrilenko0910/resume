@@ -94,18 +94,21 @@ body {
 }
 .side-bar-container {
   width: 100px;
+  padding: 12px 0px;
+  background-color: #1b32726b;
+
+  border-radius: 15px;
   @media screen and (min-width: 480px) {
     width: 120px;
   }
   @media screen and (min-width: 768px) {
     width: 140px;
+    padding: 20px 0px;
   }
   @media screen and (min-width: 1200px) {
     width: 290px;
+    padding: 40px 0px;
   }
-  background-color: #1b32726b;
-  padding: 40px 0px;
-  border-radius: 15px;
 }
 .aside-headers {
   margin-bottom: 7px;

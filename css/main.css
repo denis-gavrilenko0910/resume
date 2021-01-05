@@ -217,8 +217,8 @@ body {
 
 .side-bar-container {
   width: 100px;
+  padding: 12px 0px;
   background-color: #1b32726b;
-  padding: 40px 0px;
   border-radius: 15px;
 }
 
@@ -231,12 +231,14 @@ body {
 @media screen and (min-width: 768px) {
   .side-bar-container {
     width: 140px;
+    padding: 20px 0px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .side-bar-container {
     width: 290px;
+    padding: 40px 0px;
   }
 }
 
