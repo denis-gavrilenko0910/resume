@@ -40,24 +40,15 @@ li {
   position: absolute;
   content: "";
   left: 0px;
-  top: 2px;
+  top: 25%;
   background-color: #38264b;
   border-radius: 50%;
   width: 5px;
   height: 5px;
 }
 
-@media screen and (min-width: 480px) {
-  .list.marker::before {
-    left: 0px;
-    top: 3px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .list.marker::before {
-    left: 0px;
-    top: 2px;
     width: 7px;
     height: 7px;
   }
@@ -65,137 +56,31 @@ li {
 
 @media screen and (min-width: 1200px) {
   .list.marker::before {
-    left: 0px;
-    top: 3px;
     width: 10px;
     height: 10px;
   }
 }
 
-.project.list.marker.first::before {
+.project.list.marker::before {
   position: absolute;
   content: "";
   left: 0px;
-  top: 40px;
+  top: 44%;
   background-color: #464547;
   width: 5px;
   height: 5px;
   border-radius: 50%;
 }
 
-@media screen and (min-width: 360px) {
-  .project.list.marker.first::before {
-    left: 0px;
-    top: 25px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .project.list.marker.first::before {
-    left: 0px;
-    top: 20px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .project.list.marker.first::before {
-    left: 0px;
-    top: 35px;
+  .project.list.marker::before {
     width: 7px;
     height: 7px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .project.list.marker.first::before {
-    left: 0px;
-    top: 40px;
-    left: 0px;
-    top: 33px;
-    width: 10px;
-    height: 10px;
-  }
-}
-
-.project.list.marker.second::before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 40px;
-  background-color: #464547;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-}
-
-@media screen and (min-width: 360px) {
-  .project.list.marker.second::before {
-    left: 0px;
-    top: 25px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .project.list.marker.second::before {
-    left: 0px;
-    top: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .project.list.marker.second::before {
-    left: 0px;
-    top: 35px;
-    width: 7px;
-    height: 7px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .project.list.marker.second::before {
-    left: 0px;
-    top: 43px;
-    width: 10px;
-    height: 10px;
-  }
-}
-
-.project.list.marker.third::before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 55px;
-  background-color: #464547;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-}
-
-@media screen and (min-width: 360px) {
-  .project.list.marker.third::before {
-    left: 0px;
-    top: 30px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .project.list.marker.third::before {
-    left: 0px;
-    top: 25px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .project.list.marker.third::before {
-    left: 0px;
-    top: 55px;
-    width: 7px;
-    height: 7px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .project.list.marker.third::before {
+  .project.list.marker::before {
     width: 10px;
     height: 10px;
   }
