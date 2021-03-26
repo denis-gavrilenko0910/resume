@@ -1,6 +1,7 @@
 .marker,
 .contacts,
-.project-link {
+.project-link,
+.list {
   text-decoration: none;
   list-style: none;
 }
@@ -19,7 +20,7 @@ ul,
   font-size: 10px;
   font-weight: 500;
 }
-li {
+.list {
   position: relative;
   margin: 0;
   padding: 0;

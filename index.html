@@ -3,32 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="My resume. Self-motivated and results-driven person with a passion for software development. Fast learner with analytical skills."
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Denis Gavrilenko</title>
   </head>
   <body>
-    <!--main container-->
+    <header>
+      <nav>
+        <h1 class="my-logo">DG</h1>
+        <ul class="navigation">
+          <li class="navigation-list"><a href="">about me</a></li>
+          <li class="navigation-list"><a href="">projects</a></li>
+          <li class="navigation-list"><a href="">tech Skills</a></li>
+          <li class="navigation-list"><a href="">contacts</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container">
       <div class="side-bar-container">
         <div>
-          <img class="my-photo" src="./img/IMG_4101.jpg" alt="my photo" />
+          <img class="my-photo" src="./img/DSC_8420.jpg" alt="my photo" />
         </div>
-
+        <main>
+<!--main container-->
         <aside>
           <!--contacts container-->
           <div class="contacts-container">
             <h1 class="name">Denis Gavrilenko</h1>
             <h2 class="aside-headers">Contact me</h2>
-
-            <a class="contacts" href="tel:+380997886687" type="tel"
-              >+380 99 788 66 87</a
-            >
-            <br />
-
-            <a class="contacts" href="mailto:denys.gavrylenko@gmail.com"
-              >denys.gavrylenko@gmail.com</a
-            >
+            <ul>
+              <li class="list">
+                <a class="contacts" href="tel:+380997886687" type="tel"
+                  >+380 99 788 66 87</a
+                >
+              </li>
+              <li class="list">
+                <a class="contacts" href="mailto:denys.gavrylenko@gmail.com"
+                  >denys.gavrylenko@gmail.com</a
+                >
+              </li>
+            </ul>
           </div>
 
           <!--tech skills container-->
@@ -147,5 +164,7 @@
         </div>
       </section>
     </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
