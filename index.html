@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Denis Gavrilenko</title>
   </head>
+
   <body>
     <header>
       <nav>
@@ -22,148 +23,143 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
-      <div class="side-bar-container">
-        <div>
-          <img class="my-photo" src="./img/DSC_8420.jpg" alt="my photo" />
+    <main>
+      <div class="container">
+        <div class="side-bar-container">
+          <!--main container-->
+          <aside>
+            <!--contacts container-->
+            <div class="contacts-container">
+              <h1 class="name">Denis Gavrilenko</h1>
+              <h2 class="aside-headers">Contact me</h2>
+              <ul>
+                <li class="list">
+                  <a class="contacts" href="tel:911" type="tel">911</a>
+                </li>
+                <li class="list">
+                  <a class="contacts" href="mailto:gdpr90210@gmail.com"
+                    >email me</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!--tech skills container-->
+            <div class="skills-container">
+              <h2 class="aside-headers">Tech Skills</h2>
+              <ul>
+                <li class="list marker">HTML5</li>
+                <li class="list marker">CSS3</li>
+                <li class="list marker">SASS</li>
+                <li class="list marker">GIT</li>
+                <li class="list marker">JavaScript</li>
+                <li class="list marker">Webpack</li>
+                <li class="list marker">Figma</li>
+              </ul>
+            </div>
+
+            <!--Soft Skills-->
+            <div class="skills-container">
+              <h2 class="aside-headers">Soft Skills</h2>
+              <ul>
+                <li class="list marker">Scrum</li>
+                <li class="list marker">Agile</li>
+                <li class="list marker">GTD</li>
+                <li class="list marker">Teamwork</li>
+              </ul>
+            </div>
+          </aside>
         </div>
-        <main>
-<!--main container-->
-        <aside>
-          <!--contacts container-->
-          <div class="contacts-container">
-            <h1 class="name">Denis Gavrilenko</h1>
-            <h2 class="aside-headers">Contact me</h2>
+
+        <section class="expirience">
+          <!--about me main info-->
+
+          <div>
+            <h3 class="desired-position">JavaScript Developer</h3>
+
+            <p class="main-text">
+              Self-motivated and results-driven person with a passion for
+              software development. Fast learner with analytical skills. Highly
+              adaptable to rapidly changing environments and challenging tasks.
+              A motivated team player with the ability to adapt quickly.
+            </p>
+          </div>
+
+          <!--projects container-->
+
+          <div class="projects-container">
+            <h4 class="headers">Projects</h4>
             <ul>
-              <li class="list">
-                <a class="contacts" href="tel:+380997886687" type="tel"
-                  >+380 99 788 66 87</a
+              <li class="project list marker">
+                <a
+                  class="project-link"
+                  href="https://denis-gavrilenko0910.github.io/goit-markup-hw-08/"
+                  target="_blank"
+                >
+                  Web Studio (GitHub pages)
+                </a>
+                <span class="used-stack"
+                  >The software part of the project was done by me ( a solo
+                  project created on the given design). The technologies I used
+                  while creating it: HTML5 SASS JavaScript</span
                 >
               </li>
-              <li class="list">
-                <a class="contacts" href="mailto:denys.gavrylenko@gmail.com"
-                  >denys.gavrylenko@gmail.com</a
+
+              <li class="project list marker">
+                <a
+                  class="project-link"
+                  href="https://denis-gavrilenko0910.github.io/weather-app-main/"
+                  target="_blank"
+                  >Weather app (GitHub pages)
+                </a>
+                <span class="used-stack"
+                  >The software part of the project was done by me ( a solo
+                  project created on the OpenWeather database). The technologies
+                  I used while creating it: JavaScript HTML5 CSS3 Webpack</span
+                >
+              </li>
+
+              <li class="project list marker">
+                <a
+                  class="project-link"
+                  href="https://veraivaniuk.github.io/team-project-9-hell-en/"
+                  target="_blank"
+                  >English school HellEN (GitHub pages)
+                </a>
+                <span class="used-stack"
+                  >It's a team project. My part is a section "Наша программа".
+                  Besides, I was a team lead assistant and when necessary I
+                  supported and assisted my teammates. Project created on the
+                  given design. The technologies I used while creating it: SASS
+                  HTML5 JavaScript Webpack</span
                 >
               </li>
             </ul>
           </div>
 
-          <!--tech skills container-->
-          <div class="skills-container">
-            <h2 class="aside-headers">Tech Skills</h2>
+          <!--courses-->
+          <div class="courses-container">
+            <h4 class="headers">Courses</h4>
+            <h5 class="company-name">Go It / Full Stack development</h5>
+            <p class="learning-period">June 2020 - April 2021</p>
             <ul>
-              <li class="list marker">HTML5</li>
-              <li class="list marker">CSS3</li>
-              <li class="list marker">SASS</li>
-              <li class="list marker">GIT</li>
+              <li class="list marker">HTML+CSS+SASS</li>
               <li class="list marker">JavaScript</li>
-              <li class="list marker">Webpack</li>
-              <li class="list marker">Figma</li>
+              <li class="list marker">React</li>
+              <li class="list marker">Node</li>
             </ul>
           </div>
 
-          <!--Soft Skills-->
-          <div class="skills-container">
-            <h2 class="aside-headers">Soft Skills</h2>
-            <ul>
-              <li class="list marker">Scrum</li>
-              <li class="list marker">Agile</li>
-              <li class="list marker">GTD</li>
-              <li class="list marker">Teamwork</li>
-            </ul>
+          <!-- education -->
+
+          <div class="education-container">
+            <h4 class="headers">Education</h4>
+            <h5 class="company-name">Kharkiv State Academy of Culture</h5>
+            <p class="learning-period">September 2005 - June 2010 | Kharkiv</p>
+            <p class="specialization">Management, manager</p>
           </div>
-        </aside>
+        </section>
       </div>
-
-      <section class="expirience">
-        <!--about me main info-->
-
-        <div>
-          <h3 class="desired-position">JavaScript Developer</h3>
-
-          <p class="main-text">
-            Self-motivated and results-driven person with a passion for software
-            development. Fast learner with analytical skills. Highly adaptable
-            to rapidly changing environments and challenging tasks. A motivated
-            team player with the ability to adapt quickly.
-          </p>
-        </div>
-
-        <!--projects container-->
-
-        <div class="projects-container">
-          <h4 class="headers">Projects</h4>
-          <ul>
-            <li class="project list marker">
-              <a
-                class="project-link"
-                href="https://gavrylenkodenys.github.io/goit-markup-hw-08/"
-                target="_blank"
-              >
-                Web Studio (GitHub pages)
-              </a>
-              <span class="used-stack"
-                >The software part of the project was done by me ( a solo
-                project created on the given design). The technologies I used
-                while creating it: HTML5 SASS JavaScript</span
-              >
-            </li>
-
-            <li class="project list marker">
-              <a
-                class="project-link"
-                href="https://gavrylenkodenys.github.io/weather-app-main/"
-                target="_blank"
-                >Weather app (GitHub pages)
-              </a>
-              <span class="used-stack"
-                >The software part of the project was done by me ( a solo
-                project created on the OpenWeather database). The technologies I
-                used while creating it: JavaScript HTML5 CSS3 Webpack</span
-              >
-            </li>
-
-            <li class="project list marker">
-              <a
-                class="project-link"
-                href="https://veraivaniuk.github.io/team-project-9-hell-en/"
-                target="_blank"
-                >English school HellEN (GitHub pages)
-              </a>
-              <span class="used-stack"
-                >It's a team project. My part is a section "Наша программа".
-                Besides, I was a team lead assistant and when necessary I
-                supported and assisted my teammates. Project created on the
-                given design. The technologies I used while creating it: SASS
-                HTML5 JavaScript Webpack</span
-              >
-            </li>
-          </ul>
-        </div>
-
-        <!--courses-->
-        <div class="courses-container">
-          <h4 class="headers">Courses</h4>
-          <h5 class="company-name">Go It / Full Stack development</h5>
-          <p class="learning-period">June 2020 - April 2021</p>
-          <ul>
-            <li class="list marker">HTML+CSS+SASS</li>
-            <li class="list marker">JavaScript</li>
-            <li class="list marker">React</li>
-            <li class="list marker">Node</li>
-          </ul>
-        </div>
-
-        <!-- education -->
-
-        <div class="education-container">
-          <h4 class="headers">Education</h4>
-          <h5 class="company-name">Kharkiv State Academy of Culture</h5>
-          <p class="learning-period">September 2005 - June 2010 | Kharkiv</p>
-          <p class="specialization">Management, manager</p>
-        </div>
-      </section>
-    </div>
     </main>
     <footer></footer>
   </body>

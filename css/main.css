@@ -30,7 +30,6 @@ ul,
   padding: 0;
   padding-left: 8px;
 }
-
 @media screen and (min-width: 768px) {
   .list {
     padding-left: 15px;
@@ -42,19 +41,17 @@ ul,
   content: "";
   left: 0px;
   top: 25%;
-  background-color: #38264b;
+  background-color: rgb(56, 38, 75);
   border-radius: 50%;
   width: 5px;
   height: 5px;
 }
-
 @media screen and (min-width: 768px) {
   .list.marker::before {
     width: 7px;
     height: 7px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .list.marker::before {
     width: 10px;
@@ -67,19 +64,17 @@ ul,
   content: "";
   left: 0px;
   top: 44%;
-  background-color: #464547;
+  background-color: rgb(70, 69, 71);
   width: 5px;
   height: 5px;
   border-radius: 50%;
 }
-
 @media screen and (min-width: 768px) {
   .project.list.marker::before {
     width: 7px;
     height: 7px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .project.list.marker::before {
     width: 10px;
@@ -104,19 +99,16 @@ body {
   -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
           box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -129,19 +121,16 @@ body {
   margin-right: auto;
   width: 100px;
 }
-
 @media screen and (min-width: 480px) {
   .my-photo {
     width: 120px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .my-photo {
     width: 140px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .my-photo {
     width: 290px;
@@ -152,14 +141,12 @@ body {
   font-size: 15px;
   color: #061e61;
 }
-
 @media screen and (min-width: 768px) {
   .name {
     width: 768px;
     margin-bottom: 10px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .name {
     width: 1200px;
@@ -170,7 +157,6 @@ body {
 .contacts-container {
   padding: 5px;
 }
-
 @media screen and (min-width: 1200px) {
   .contacts-container {
     padding: 10px;
@@ -187,11 +173,10 @@ body {
   display: inline-block;
   padding: 10px 0;
   margin-bottom: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contacts:hover, .contacts:focus {
   color: #012141;
 }
@@ -201,15 +186,13 @@ body {
   display: inline-block;
   padding: 5px 0;
   margin-bottom: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contacts:hover, .contacts:focus {
   color: #012141;
 }
-
 @media screen and (min-width: 1200px) {
   .contacts {
     font-size: 17px;
@@ -219,23 +202,20 @@ body {
 .side-bar-container {
   width: 100px;
   padding: 12px 0px;
-  background-color: #1b32726b;
+  background-color: rgba(27, 50, 114, 0.4196078431);
   border-radius: 15px;
 }
-
 @media screen and (min-width: 480px) {
   .side-bar-container {
     width: 120px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .side-bar-container {
     width: 140px;
     padding: 20px 0px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .side-bar-container {
     width: 290px;
@@ -248,24 +228,20 @@ body {
   font-size: 10px;
   color: #061e61;
 }
-
 @media screen and (min-width: 768px) {
   .aside-headers {
     font-size: 17px;
     margin-bottom: 10px;
   }
 }
-
 .skills-container {
   padding: 5px 5px;
 }
-
 @media screen and (min-width: 768px) {
   .skills-container {
     padding: 7px 15px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .skills-container {
     padding: 10px 20px;
@@ -276,13 +252,11 @@ body {
   margin-bottom: 5px;
   font-size: 9px;
 }
-
 @media screen and (min-width: 768px) {
   .list {
     font-size: 12px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .list {
     font-size: 17px;
@@ -292,13 +266,11 @@ body {
 .expirience {
   padding: 10px;
 }
-
 @media screen and (min-width: 768px) {
   .expirience {
     padding: 15px 20px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .expirience {
     padding: 50px 40px;
@@ -311,13 +283,11 @@ body {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
 }
-
 @media screen and (min-width: 768px) {
   .main-text {
     font-size: 17px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .main-text {
     font-size: 20px;
@@ -330,13 +300,11 @@ body {
   margin-bottom: 10px;
   font-size: 15px;
 }
-
 @media screen and (min-width: 768px) {
   .desired-position {
     font-size: 20px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .desired-position {
     margin-bottom: 25px;
@@ -349,7 +317,6 @@ body {
   margin-bottom: 20px;
   font-size: 12px;
 }
-
 @media screen and (min-width: 1200px) {
   .headers {
     font-size: 20px;
@@ -381,19 +348,16 @@ body {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .project-link:hover, .project-link:focus {
   color: white;
-  background-color: #1b32726b;
+  background-color: rgba(27, 50, 114, 0.4196078431);
 }
-
 @media screen and (min-width: 768px) {
   .project-link {
     padding: 20px 10px;
     font-size: 17px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .project-link {
     padding: 20px 10px;
@@ -408,14 +372,12 @@ body {
   padding: 5px;
   font-size: 9px;
 }
-
 @media screen and (min-width: 768px) {
   .used-stack {
     padding: 10px 0;
     font-size: 15px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .used-stack {
     font-size: 17px;
@@ -426,13 +388,11 @@ body {
   font-size: 10px;
   margin-bottom: 15px;
 }
-
 @media screen and (min-width: 768px) {
   .company-name {
     font-size: 12px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .company-name {
     font-size: 17px;
@@ -443,13 +403,11 @@ body {
   font-size: 10px;
   margin-bottom: 8px;
 }
-
 @media screen and (min-width: 768px) {
   .learning-period {
     font-size: 12px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .learning-period {
     font-size: 17px;
@@ -467,16 +425,13 @@ body {
 .specialization {
   font-size: 10px;
 }
-
 @media screen and (min-width: 768px) {
   .specialization {
     font-size: 12px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .specialization {
     font-size: 17px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
